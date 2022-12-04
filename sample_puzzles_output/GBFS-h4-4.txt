@@ -1,0 +1,20 @@
+C:\Anaconda\envs\BoardGame\python.exe C:\Users\Dell\PycharmProjects\BoardGame\main.py 
+------------ 4 ---------------
+--------------------------------------------------------------------------------
+Initial board configuration : BBB..MCCDD.MAAKL.MJ.KLEEJ.GG..JHHHII J0 B4
+
+!
+BBB..M 
+CCDD.M 
+AAKL.M 
+J.KLEE 
+J.GG.. 
+JHHHII 
+
+Car fuel available: 
+Sorry, could not solve the puzzle as specified.
+Error: no solution found
+Runtime:  0.332  seconds
+--------------------------------------------------------------------------------
+
+Process finished with exit code 0

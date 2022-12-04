@@ -1,0 +1,114 @@
+------------ 6 ---------------
+--------------------------------------------------------------------------------
+Initial board configuration : BB.G.HE..G.HEAAG.I..FCCIDDF..I..F...
+
+!
+BB.G.H 
+E..G.H 
+EAAG.I 
+..FCCI 
+DDF..I 
+..F... 
+
+Car fuel available: B : 100 , G : 100 , H : 100 , E : 100 , A : 100 , I : 100 , F : 100 , C : 100 , D : 100 , 
+Runtime:  1.153  seconds
+Search path length: 281 states
+Solution path length: 44 moves
+
+BB.G.HE..G.HEAAG....FCCIDDF..I..F..I I 99
+
+! .BBG.HE..G.HEAAG....FCCIDDF..I..F..I I 99 B 99
+
+! EBBG.HE..G.H.AAG....FCCIDDF..I..F..I I 99 B 99 E 99
+
+! EBBG.HE..G.HAA.G....FCCIDDF..I..F..I I 99 B 99 E 99 A 99
+
+! EBBG.HE.FG.HAAFG....FCCIDD...I.....I I 99 B 99 E 99 A 99 F 98
+
+! EBBG.HE.FG.HAAFG....FCCI...DDI.....I I 99 B 99 E 99 A 99 F 98 D 97
+
+! EBBG.HE..G.HAA.G....FCCI..FDDI..F..I I 99 B 99 E 99 A 99 F 96 D 97
+
+! EBBG.HE..G.H.AAG....FCCI..FDDI..F..I I 99 B 99 E 99 A 98 F 96 D 97
+
+! .BBG.H...G.H.AAG..E.FCCIE.FDDI..F..I I 99 B 99 E 96 A 98 F 96 D 97
+
+! BB.G.H...G.H.AAG..E.FCCIE.FDDI..F..I I 99 B 98 E 96 A 98 F 96 D 97
+
+! BB.G.H...G.H.AAG....FCCIE.FDDIE.F..I I 99 B 98 E 95 A 98 F 96 D 97
+
+! BB.G.H...G.HAA.G....FCCIE.FDDIE.F..I I 99 B 98 E 95 A 97 F 96 D 97
+
+! BBFG.H..FG.HAAFG.....CCIE..DDIE....I I 99 B 98 E 95 A 97 F 93 D 97
+
+! BBFG.H..FG.HAAFG..CC...IE..DDIE....I I 99 B 98 E 95 A 97 F 93 D 97 C 97
+
+! BB.G.H...G.HAA.G..CCF..IE.FDDIE.F..I I 99 B 98 E 95 A 97 F 90 D 97 C 97
+
+! .BBG.H...G.HAA.G..CCF..IE.FDDIE.F..I I 99 B 97 E 95 A 97 F 90 D 97 C 97
+
+! .BB..H...G.HAA.G..CCFG.IE.FDDIE.F..I I 99 B 97 E 95 A 97 F 90 D 97 C 97 G 99
+
+! ...BBH...G.HAA.G..CCFG.IE.FDDIE.F..I I 99 B 95 E 95 A 97 F 90 D 97 C 97 G 99
+
+! ...BBH...G.H.AAG..CCFG.IE.FDDIE.F..I I 99 B 95 E 95 A 96 F 90 D 97 C 97 G 99
+
+! ...BB....G.H.AAG.HCCFG.IE.FDDIE.F..I I 99 B 95 E 95 A 96 F 90 D 97 C 97 G 99 H 99
+
+! ....BB...G.H.AAG.HCCFG.IE.FDDIE.F..I I 99 B 94 E 95 A 96 F 90 D 97 C 97 G 99 H 99
+
+! ....BB...G.HAA.G.HCCFG.IE.FDDIE.F..I I 99 B 94 E 95 A 95 F 90 D 97 C 97 G 99 H 99
+
+! ..F.BB..FG.HAAFG.HCC.G.IE..DDIE....I I 99 B 94 E 95 A 95 F 87 D 97 C 97 G 99 H 99
+
+! ..F.BB..FG.HAAFG.H.CCG.IE..DDIE....I I 99 B 94 E 95 A 95 F 87 D 97 C 96 G 99 H 99
+
+! ..FGBB..FG.HAAFG.H.CC..IE..DDIE....I I 99 B 94 E 95 A 95 F 87 D 97 C 96 G 98 H 99
+
+! ..FGBB..FG.HAAFG.H...CCIE..DDIE....I I 99 B 94 E 95 A 95 F 87 D 97 C 94 G 98 H 99
+
+! ...GBB...G.HAA.G.H..FCCIE.FDDIE.F..I I 99 B 94 E 95 A 95 F 84 D 97 C 94 G 98 H 99
+
+! ...GBB...G.HAA.G.HE.FCCIE.FDDI..F..I I 99 B 94 E 94 A 95 F 84 D 97 C 94 G 98 H 99
+
+! ...GBB...G.H.AAG.HE.FCCIE.FDDI..F..I I 99 B 94 E 94 A 94 F 84 D 97 C 94 G 98 H 99
+
+! E..GBBE..G.H.AAG.H..FCCI..FDDI..F..I I 99 B 94 E 91 A 94 F 84 D 97 C 94 G 98 H 99
+
+! E..GBBE..G.HAA.G.H..FCCI..FDDI..F..I I 99 B 94 E 91 A 93 F 84 D 97 C 94 G 98 H 99
+
+! E.FGBBE.FG.HAAFG.H...CCI...DDI.....I I 99 B 94 E 91 A 93 F 81 D 97 C 94 G 98 H 99
+
+! E.FGBBE.FG.HAAFG.HCC...I...DDI.....I I 99 B 94 E 91 A 93 F 81 D 97 C 91 G 98 H 99
+
+! E..GBBE..G.HAA.G.HCCF..I..FDDI..F..I I 99 B 94 E 91 A 93 F 78 D 97 C 91 G 98 H 99
+
+! E...BBE..G.HAA.G.HCCFG.I..FDDI..F..I I 99 B 94 E 91 A 93 F 78 D 97 C 91 G 97 H 99
+
+! E..BB.E..G.HAA.G.HCCFG.I..FDDI..F..I I 99 B 93 E 91 A 93 F 78 D 97 C 91 G 97 H 99
+
+! E..BBHE..G.HAA.G..CCFG.I..FDDI..F..I I 99 B 93 E 91 A 93 F 78 D 97 C 91 G 97 H 98
+
+! E.BB.HE..G.HAA.G..CCFG.I..FDDI..F..I I 99 B 92 E 91 A 93 F 78 D 97 C 91 G 97 H 98
+
+! E.BB.HE.FG.HAAFG..CCFG.I...DDI.....I I 99 B 92 E 91 A 93 F 76 D 97 C 91 G 97 H 98
+
+! E.BB.HE.FG.HAAFG..CCFG.I.DD..I.....I I 99 B 92 E 91 A 93 F 76 D 95 C 91 G 97 H 98
+
+! E.BB.HE.F..HAAF...CCFG.I.DDG.I...G.I I 99 B 92 E 91 A 93 F 76 D 95 C 91 G 95 H 98
+
+! E.BB.HE.F..HAAF...CCFG.IDD.G.I...G.I I 99 B 92 E 91 A 93 F 76 D 94 C 91 G 95 H 98
+
+! E.BB.HE....HAA....CCFG.IDDFG.I..FG.I I 99 B 92 E 91 A 93 F 74 D 94 C 91 G 95 H 98
+
+! E.BB.HE....H......CCFG.IDDFG.I..FG.I I 99 B 92 E 91 F 74 D 94 C 91 G 95 H 98
+
+! I 99 B 92 E 91 F 74 D 94 C 91 G 95 H 98 
+
+E.BB.H 
+E....H 
+...... 
+CCFG.I 
+DDFG.I 
+..FG.I 
+--------------------------------------------------------------------------------
